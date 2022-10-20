@@ -7,6 +7,7 @@ import Signup from './pages/Signup/Signup'
 import Login from './pages/Login/Login'
 import Landing from './pages/Landing/Landing'
 import Profiles from './pages/Profiles/Profiles'
+import AddPhotos from './pages/AddPhotos/AddPhotos'
 import ChangePassword from './pages/ChangePassword/ChangePassword'
 
 // components
@@ -51,6 +52,14 @@ const App = () => {
           element={
             <ProtectedRoute user={user}>
               <Profiles />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/add"
+          element={
+            <ProtectedRoute user={user}>
+              <AddPhotos />
             </ProtectedRoute>
           }
         />
