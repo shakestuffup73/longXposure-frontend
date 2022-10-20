@@ -139,6 +139,9 @@ const AddPhotos = (props) => {
               onChange={handleChangePhoto}
             />
         </div>
+        <button disabled={isFormInvalid()}>
+          Sign Up
+        </button>
       </form>
     </main>
   )
