@@ -60,7 +60,7 @@ const AddPhotos = (props) => {
               autoComplete='off'
               id='title'
               value={title}
-              title='title'
+              name='title'
               onChange={handleChange}
             />
         </div>
@@ -71,7 +71,7 @@ const AddPhotos = (props) => {
               autoComplete='off'
               id='cameraBody'
               value={cameraBody}
-              cameraBody='cameraBody'
+              name='cameraBody'
               onChange={handleChange}
             />
         </div>
@@ -82,7 +82,7 @@ const AddPhotos = (props) => {
               autoComplete='off'
               id='lens'
               value={lens}
-              lens='lens'
+              name='lens'
               onChange={handleChange}
             />
         </div>
@@ -93,7 +93,7 @@ const AddPhotos = (props) => {
               autoComplete='off'
               id='aperture'
               value={aperture}
-              aperture='aperture'
+              name='aperture'
               onChange={handleChange}
             />
         </div>
@@ -104,7 +104,7 @@ const AddPhotos = (props) => {
               autoComplete='off'
               id='iso'
               value={iso}
-              iso='iso'
+              name='iso'
               onChange={handleChange}
             />
         </div>
@@ -115,7 +115,7 @@ const AddPhotos = (props) => {
               autoComplete='off'
               id='shutterSpeed'
               value={shutterSpeed}
-              shutterSpeed='shutterSpeed'
+              name='shutterSpeed'
               onChange={handleChange}
             />
         </div>
@@ -126,7 +126,7 @@ const AddPhotos = (props) => {
               autoComplete='off'
               id='location'
               value={location}
-              location='location'
+              name='location'
               onChange={handleChange}
             />
         </div>
